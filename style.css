@@ -1,0 +1,52 @@
+
+/* 全体のデザイン */
+body {
+  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background-color: #e9ecef; /* 背景色 */
+  color: #333;
+  text-align: center;
+  padding: 60px;
+}
+
+/* カードデザイン */
+.card {
+  background: white;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* プロフィール画像 */
+.card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* 名前 */
+.card h1 {
+  color: #78ceaa;
+  margin-bottom: 10px;
+}
+
+/* 自己紹介文（大きく調整） */
+.intro {
+  font-size: 1.5rem;  /* フォントサイズを大きく */
+  font-weight: bold;  /* 太字 */
+  margin-bottom: 25px;
+  line-height: 1.6;
+  color: #555;  /* 色を少し優しいグレーに */
+}
+
+/* 情報部分 */
+.info {
+  text-align: left;
+  font-size: 1rem;  /* 少し大きめ */
+  line-height: 1.8;
+  margin-top: 15px;
+}
